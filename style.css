@@ -98,11 +98,11 @@ nav {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image:url(/images/www.notion.so_DRAW_20251112_143551_0000.png) ;
+    background-image:url(/images/draw\ web\ bannière.jpg) ;
     background-size: cover;
     background-position: center;
     color: var(--white);
-    padding-top: 80px;
+    padding-top: 180px;
     text-align: center;
 }
 
@@ -244,10 +244,20 @@ section {
     transform: scale(1.05);
 }
 
-.portfolio-image {
+/*.portfolio-image {
     width: 100%;
     height: 250px;
     background: linear-gradient(135deg, var(--primary-color) 0%, #0047cc 100%);
+}*/
+.portfolio-image1 ,.portfolio-image2 ,.portfolio-image3 ,.portfolio-image4, .portfolio-image5, .portfolio-image6 {
+    width: 100%;
+    height:250px ;
+   
+}
+.portfolio-image1 {
+ background-image: url(images/deliver\ swift.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .portfolio-item h3 {
