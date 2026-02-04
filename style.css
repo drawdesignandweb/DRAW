@@ -71,6 +71,9 @@ nav {
 .nav-links a:hover {
     color: var(--primary-color);
 }
+.nav-links a:active{
+    color: var(--primary-color);
+}
 
 .btn-nav {
     background: var(--primary-color);
@@ -94,6 +97,7 @@ nav {
 }
 
 /* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -102,7 +106,7 @@ nav {
     background-size: cover;
     background-position: center;
     color: var(--white);
-    padding-top: 180px;
+    padding-top:430px;
     text-align: center;
 }
 
@@ -256,6 +260,31 @@ section {
 }
 .portfolio-image1 {
  background-image: url(images/deliver\ swift.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-image2 {
+ background-image: url(images/WhatsApp\ Image\ 2026-02-04\ at\ 11.26.01.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-image3 {
+ background-image: url(images/L\'art\ de\ chez\ nous\ v2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-image4 {
+ background-image: url(images/travel.png);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-image5 {
+ background-image: url(images/model.png);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-image6 {
+ background-image: url();
     background-size: cover;
     background-position: center;
 }
